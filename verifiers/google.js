@@ -3,7 +3,7 @@ import { GoogleAuth, GoogleAPI } from '../utils/google.js';
 import AbstractVerifier from './verifier.js';
 import { ethers } from 'ethers';
 
-const DEFAULT_REDIRECT_URI = 'https://near.social/mattb.near/widget/NearBadger.Pages.Authentication';
+const DEFAULT_REDIRECT_URI = 'https://near.social/demi-god.near/widget/Nadabot.Authentication';
 const GOOGLE_CODE_CHALLENGE = 'nearbadger-google-auth-verification'; // dbgKAsK-CvaxuoYw2aSlHU5Pqwm-8CME0tk60XJoQCA
 
 export default class GoogleVerifier extends AbstractVerifier {
